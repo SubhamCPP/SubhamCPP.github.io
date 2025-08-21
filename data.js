@@ -10,7 +10,7 @@ window.PORTFOLIO_DATA = {
       "Data Scientist focusing on enterprise AI in biotech—building scalable agentic systems, ML pipelines, and analytics that accelerate R&D, clinical, and platform engineering outcomes.",
     email: "subhampanda958@gmail.com",
     location: "Los Angeles, CA",
-    resumeHref: "./ResumeSubham4.pdf",
+    resumeHref: "./ResumeSubham.pdf",
   },
 
   socials: [
