@@ -26,8 +26,8 @@ window.PORTFOLIO_DATA = {
       location: "Thousand Oaks, CA",
       period: "Jan 2025 – Present",
       summary:
-        "Partnering with Amgen's enterprise agentic ecosystem platformto enable reusable AI agents across R&D, clinical, and commercial programs. Built an MCP client and deployed modular MCP servers on EKS and Databricks, cutting agent latency by ~18%. Integrated LLM agents with Databricks for secure, observable workflows using OpenAI, LangChain, Mosaic AI, and MLflow. Co-led platform pipelines for cost monitoring and compliance automation.",
-      tools: ["Agents", "MCP", "PySpark", "Databricks", "AWS", "FastAPI", "OpenAI", "MLflow", "Kubernetes"],
+        "Partnered with Amgen's enterprise agentic ecosystem platform to enable reusable AI agents across R&D, clinical, and commercial programs. Built an MCP client and deployed modular MCP servers on EKS and Databricks, cutting agent acceleration by ~18%. Integrated LLM agents with Databricks for secure, observable workflows using OpenAI, LangChain, Mosaic AI, and MLflow. Co-led platform pipelines for cost monitoring and compliance automation.",
+      tools: ["Agents", "MCP", "LLM Eval","PySpark", "Databricks", "AWS", "FastAPI", "OpenAI", "MLflow", "Kubernetes"],
     },
     {
       company: "Amgen",
@@ -67,7 +67,7 @@ window.PORTFOLIO_DATA = {
       period: "Jun 2022 – Mar 2023",
       summary:
         "Built predictive models for churn, forecasting, and inventory optimization with ~10% accuracy gains using RAPIDS cuML and statistical methods. Automated NLP/CV tasks with Azure Cognitive Services, cutting manual analysis by ~30% and improving accuracy by ~20%. Delivered Qlik dashboards that sped up decisions by ~20%.",
-      tools: ["Databricks","RAPIDS", "Azure ML", "Qlik"],
+      tools: ["Databricks", "Azure ML", "Qlik", "Predictive Analytics"],
     },
     {
       company: "ValueLabs",
@@ -77,7 +77,7 @@ window.PORTFOLIO_DATA = {
       period: "Mar 2022 – May 2022",
       summary:
         "Developed a spam classifier (~90% accuracy) and a regression model for sales forecasting, reducing manual intervention and improving planning.",
-      tools: ["Python", "scikit-learn"],
+      tools: ["Python", "scikit-learn", "Azure ML", "Qlik"],
     },
   ],
 
