@@ -26,7 +26,7 @@ window.PORTFOLIO_DATA = {
       location: "Thousand Oaks, CA",
       period: "Jan 2025 – Present",
       summary:
-        "Partnered with Amgen's enterprise agentic ecosystem platform to enable reusable AI agents across R&D, clinical, and commercial programs. Built an MCP client and deployed modular MCP servers on EKS and Databricks, cutting agent acceleration by ~18%. Integrated LLM agents with Databricks for secure, observable workflows using OpenAI, LangChain, Mosaic AI, and MLflow. Co-led platform pipelines for cost monitoring and compliance automation.",
+        "Partnered with Amgen's Enterprise Agentic Ecosystem platform to enable reusable AI agents across R&D, clinical, and commercial programs. Built an MCP client and deployed modular MCP servers on EKS and Databricks, cutting agent acceleration by ~18%. Integrated LLM agents with Databricks for secure, observable workflows using OpenAI, LangChain, Mosaic AI, and MLflow. Co-led platform pipelines for cost monitoring and compliance automation.",
       tools: ["Agents", "MCP", "LLM Eval","PySpark", "Databricks", "AWS", "FastAPI", "OpenAI", "MLflow", "Kubernetes"],
     },
     {
