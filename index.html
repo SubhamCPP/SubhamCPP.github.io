@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio · Data Scientist</title>
+    <meta name="description" content="Portfolio website for a Data Scientist specializing in biotech and AI/ML." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#home" class="brand">
+          <span class="brand-emoji">🧬</span>
+          <span class="brand-text">Subham Panda · Data Scientist</span>
+        </a>
+        <nav class="nav">
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+          <a class="btn btn-primary btn-sm" id="resume-link" href="./ResumeSubham4.pdf" target="_blank" rel="noopener">Resume</a>
+        </nav>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">☰</button>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero container">
+        <div class="hero-content">
+          <p class="eyebrow" id="hero-eyebrow">GenAI · ML · Data Science</p>
+          <h1 class="headline" id="hero-name">Your Name</h1>
+          <p class="subhead" id="hero-title">Data Scientist at Amgen</p>
+          <p class="description" id="hero-summary">
+            I build data and machine learning solutions that turn biomedical data into actionable insights.
+          </p>
+          <div class="cta-group">
+            <a class="btn btn-primary" href="#experience">Experience</a>
+            <a class="btn btn-ghost" id="cta-resume" href="./ResumeSubham4.pdf" target="_blank" rel="noopener">Resume</a>
+          </div>
+          <div class="socials" id="social-links"></div>
+        </div>
+        <div class="hero-visual">
+          <div class="orbits">
+            <div class="center-sphere"></div>
+            <div class="orbit orbit-1">
+              <div class="orbiter ang-0"><iconify-icon class="orbit-icon" icon="simple-icons:python" width="22" height="22"></iconify-icon></div>
+              <div class="orbiter ang-120"><iconify-icon class="orbit-icon" icon="simple-icons:mlflow" width="20" height="20"></iconify-icon></div>
+              <div class="orbiter ang-240"><iconify-icon class="orbit-icon" icon="simple-icons:pytorch" width="22" height="22"></iconify-icon></div>
+            </div>
+            <div class="orbit orbit-2">
+              <div class="orbiter ang-0"><iconify-icon class="orbit-icon" icon="simple-icons:databricks" width="20" height="20"></iconify-icon></div>
+              <div class="orbiter ang-120"><iconify-icon class="orbit-icon" icon="simple-icons:amazonaws" width="22" height="22"></iconify-icon></div>
+              <div class="orbiter ang-240"><iconify-icon class="orbit-icon" icon="simple-icons:apachespark" width="22" height="22" title="PySpark"></iconify-icon></div>
+            </div>
+            <div class="orbit orbit-3">
+              <div class="orbiter ang-0"><iconify-icon class="orbit-icon" icon="mdi:robot-outline" width="22" height="22" title="Agents"></iconify-icon></div>
+              <div class="orbiter ang-120"><iconify-icon class="orbit-icon" icon="mdi:source-branch" width="20" height="20" title="MCP"></iconify-icon></div>
+              <div class="orbiter ang-240"><iconify-icon class="orbit-icon" icon="simple-icons:kubernetes" width="22" height="22" title="Kubernetes"></iconify-icon></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+
+      <section id="experience" class="section container">
+        <h2>Experience</h2>
+        <div class="grid" id="experience-grid"></div>
+      </section>
+
+
+
+      <section id="skills" class="section container">
+        <h2>Skills & Tools</h2>
+        <div class="skills-grid" id="skills-grid"></div>
+      </section>
+
+      <section id="education" class="section container">
+        <h2>Education</h2>
+        <div class="timeline" id="education-list"></div>
+      </section>
+
+      <section id="contact" class="section container">
+        <h2>Contact</h2>
+        <div class="card contact-card">
+          <div class="contact-row">
+            <div>
+              <p class="muted">Email</p>
+              <a id="contact-email" href="mailto:your.email@example.com">your.email@example.com</a>
+            </div>
+            <div>
+              <p class="muted">Location</p>
+              <span id="contact-location">San Francisco Bay Area, CA</span>
+            </div>
+            <div class="contact-cta">
+              <a class="btn btn-primary" href="#" id="contact-cta">Get in touch</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span id="footer-copyright">© <span id="year"></span> Subham Panda</span>
+        <span class="muted">Built with HTML · CSS · JS</span>
+      </div>
+    </footer>
+
+    <!-- Iconify for tool icons (Simple Icons collection) -->
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
+  </html>
+
